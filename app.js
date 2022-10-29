@@ -17,8 +17,8 @@ btn.addEventListener('click',(event) =>
     // span.style.height = `${height + 20}px`;
 
     // 2nd apporch
-    span.style.top=`${event.offsetY}px`;
-    span.style.left=`${event.offsetX}px`;
+    span.style.top=`${event.offsetY - 20}px`;
+    span.style.left=`${event.offsetX - 20}px`;
     span.style.transform='scale(4)';
     // span.textContent='asdfs';   
     span.style.opacity=0.2;
