@@ -33,7 +33,7 @@ span{
     position: absolute;
     display:inline-block;
     border-radius:50%;
-    width:0;
-    height:0;
+    width:100px;
+    height: 100px;
     transform: scale(0);
 }
